@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
       <div className="hero-content">
         <div className="profile-container">
           <div className="profile-picture">
-            <img src="/portofolio.jpg" alt="Farah Attallah" />
+            <img src="/profile.jpg" alt="Farah Atallah" />
             <div className="pointing-hand">👆</div>
           </div>
         </div>

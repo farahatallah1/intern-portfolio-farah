@@ -4,44 +4,30 @@ const Experience: React.FC = () => {
   const experiences = [
     {
       id: 1,
-      title: "Frontend Developer Intern",
-      company: "Tech Startup",
-      period: "Jun 2023 - Aug 2023",
-      description: "Developed and maintained web applications using React and TypeScript. Collaborated with cross-functional teams to deliver high-quality software solutions and improved user experience.",
-      technologies: ["React", "TypeScript", "Node.js", "Git", "Figma"]
+      title: "Full Stack Developer ",
+      company: "GDG ",
+      period: "Feb 2025 - Jun 2025",
+      description: "Developed robust back-end services utilizing .NET, Entity Framework Core, and SQL for a full-stack platform. Participated in workshops focused on backend architecture, API development, and React.js frontend integration, significantly enhancing full-stack development expertise. Engineered authentication systems and real-time features leveraging WebSockets, demonstrating technical proficiency and collaborative excellence. Operated within agile environments, adhering to clean code principles and implementing Git workflows to ensure efficient collaboration and high-quality code delivery.",
+      
     },
     {
       id: 2,
-      title: "Freelance Web Developer",
-      company: "Self-Employed",
-      period: "Jan 2023 - Present",
-      description: "Building responsive websites and web applications for various clients. Specializing in modern JavaScript frameworks, user experience design, and creating accessible digital solutions.",
-      technologies: ["React", "TypeScript", "CSS3", "Figma", "WordPress"]
+      title: "Data Analysis Trainee",
+      company: "Digital Egypt Pioneers Initiative, Ministry of Communications and Information Technology",
+      period: "Jun 2024 - Oct 2024",
+      description: "Mastery of data processing and visualization has been achieved using Python, SQL Server, and Power BI to deliver robust business intelligence solutions. Efficient data models have been designed to streamline decision-making processes, enabling faster and more informed outcomes. Expertise in AI fundamentals and data engineering has been developed through intensive training, further enhancing the capability to drive data-driven insights.",
+      
     },
     {
       id: 3,
       title: "Computer Engineering Student",
-      company: "University",
-      period: "2021 - Present",
-      description: "Pursuing a degree in Computer Engineering with focus on software development, algorithms, system design, and modern web technologies. Maintaining excellent academic performance.",
-      technologies: ["C++", "Python", "Data Structures", "Algorithms", "Computer Architecture"]
+      company: "Nile University",
+      period: "Sep 2022 - Present",
+      description: "Passionate Senior Computer Engineering Student with a strong foundation in software development, algorithms, system design, and modern web technologies. Maintaining excellent academic performance while actively seeking opportunities to apply theoretical knowledge in practical projects.",
+      
     },
-    {
-      id: 4,
-      title: "Open Source Contributor",
-      company: "GitHub",
-      period: "2022 - Present",
-      description: "Contributing to various open-source projects, particularly in the React ecosystem. Helping improve documentation, fix bugs, and add new features to popular libraries.",
-      technologies: ["React", "JavaScript", "Git", "GitHub", "Documentation"]
-    },
-    {
-      id: 5,
-      title: "Coding Mentor",
-      company: "Local Community",
-      period: "2022 - Present",
-      description: "Teaching programming fundamentals to beginners and helping them build their first projects. Organizing coding workshops and study groups in the local tech community.",
-      technologies: ["JavaScript", "HTML/CSS", "Python", "Teaching", "Mentoring"]
-    }
+    
+  
   ];
 
   return (
@@ -58,11 +44,7 @@ const Experience: React.FC = () => {
                   <span className="period">{exp.period}</span>
                 </div>
                 <p className="job-description">{exp.description}</p>
-                <div className="job-technologies">
-                  {exp.technologies.map((tech, techIndex) => (
-                    <span key={techIndex} className="tech-tag">{tech}</span>
-                  ))}
-                </div>
+                
               </div>
             </div>
           ))}

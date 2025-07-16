@@ -545,12 +545,6 @@ section {
   opacity: 0.9;
 }
 
-.job-technologies {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
-
 /* Contact Section */
 .contact-content {
   display: grid;
