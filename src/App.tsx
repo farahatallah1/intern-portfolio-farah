@@ -20,6 +20,8 @@ function App() {
       <Navbar isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
       <main className="main-content">
         <Hero />
+        <img src="/portofolio.jpg" alt="My photo" className="profile-img" />
+
         <About />
         <Projects />
         <Skills />
