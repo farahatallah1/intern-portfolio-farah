@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/intern-portfolio-farah/static/css/main.5b8e7798.css",
+    "main.js": "/intern-portfolio-farah/static/js/main.c4952edf.js",
+    "static/js/453.0c38e0a7.chunk.js": "/intern-portfolio-farah/static/js/453.0c38e0a7.chunk.js",
+    "index.html": "/intern-portfolio-farah/index.html",
+    "main.5b8e7798.css.map": "/intern-portfolio-farah/static/css/main.5b8e7798.css.map",
+    "main.c4952edf.js.map": "/intern-portfolio-farah/static/js/main.c4952edf.js.map",
+    "453.0c38e0a7.chunk.js.map": "/intern-portfolio-farah/static/js/453.0c38e0a7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b8e7798.css",
+    "static/js/main.c4952edf.js"
+  ]
+}
