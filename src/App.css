@@ -9,6 +9,8 @@ body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
   line-height: 1.6;
   overflow-x: hidden;
+  background: radial-gradient(ellipse at 60% 20%, #7b61ff 0%, #a259c6 40%, #3a2c5f 100%);
+  /* Soft, subtle purple gradient */
 }
 
 /* App container */
@@ -125,6 +127,7 @@ body {
   max-width: 1000px;
   margin: 0 auto;
   font-family: 'Kode Mono', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  background: none; /* Remove hero background so it inherits from body */
 }
 
 .hero-content {
