@@ -22,7 +22,7 @@ const Hero: React.FC = () => {
          
           <h1>
           Hi, I'm Farah Attalla, a computer engineer .
-           and I'm passionate about transforming ideas into impactful products
+           and I envision a path in technology that tells a story of impact, growth, and creativity
           </h1>
         </div>
         

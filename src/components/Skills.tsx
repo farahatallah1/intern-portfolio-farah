@@ -1,8 +1,8 @@
 import React from 'react';
 
 const skills = [
-  'HTML', 'CSS', 'JavaScript', 'TypeScript', 'React', 'Next.js', 'Node.js', 'Git',
-  'Tailwind', 'MongoDB', 'GraphQL', 'Express', 'Python', 'Django', 'Framer Motion'
+  'React', 'JavaScript', 'TypeScript', 'React.js',  'Git',
+  'Python', 'SQL Server', 'Java','C#', 'C++', '.Net', 'Flask', 'Microsoft Azure'
 ];
 
 const softSkills = [
