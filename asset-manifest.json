@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/intern-portfolio-farah/static/css/main.5b8e7798.css",
-    "main.js": "/intern-portfolio-farah/static/js/main.435233a6.js",
+    "main.css": "/intern-portfolio-farah/static/css/main.43dc7b78.css",
+    "main.js": "/intern-portfolio-farah/static/js/main.844d25f9.js",
     "static/js/453.0c38e0a7.chunk.js": "/intern-portfolio-farah/static/js/453.0c38e0a7.chunk.js",
     "index.html": "/intern-portfolio-farah/index.html",
-    "main.5b8e7798.css.map": "/intern-portfolio-farah/static/css/main.5b8e7798.css.map",
-    "main.435233a6.js.map": "/intern-portfolio-farah/static/js/main.435233a6.js.map",
+    "main.43dc7b78.css.map": "/intern-portfolio-farah/static/css/main.43dc7b78.css.map",
+    "main.844d25f9.js.map": "/intern-portfolio-farah/static/js/main.844d25f9.js.map",
     "453.0c38e0a7.chunk.js.map": "/intern-portfolio-farah/static/js/453.0c38e0a7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b8e7798.css",
-    "static/js/main.435233a6.js"
+    "static/css/main.43dc7b78.css",
+    "static/js/main.844d25f9.js"
   ]
 }
