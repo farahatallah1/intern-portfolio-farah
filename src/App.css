@@ -970,3 +970,21 @@ section {
   }
 }
 
+.soft-skills-title {
+  margin-top: 2.5rem;
+  margin-bottom: 0.7rem;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 0.5px;
+}
+
+.soft-skills-list {
+  margin-bottom: 1.5rem;
+}
+
+.App.light .soft-skills-title {
+  color: #222;
+}
+

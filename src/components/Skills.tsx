@@ -5,6 +5,10 @@ const skills = [
   'Tailwind', 'MongoDB', 'GraphQL', 'Express', 'Python', 'Django', 'Framer Motion'
 ];
 
+const softSkills = [
+  'Teamwork', 'Communication', 'Problem Solving', 'Adaptability', 'Time Management', 'Leadership', 'Critical Thinking',' Agile Methodologies'
+];
+
 const Skills: React.FC = () => {
   return (
     <section id="skills" className="skills">
@@ -12,6 +16,12 @@ const Skills: React.FC = () => {
         <h2 className="section-title">My Skills</h2>
         <div className="skills-pill-list">
           {skills.map((skill) => (
+            <span className="skill-pill" key={skill}>{skill}</span>
+          ))}
+        </div>
+        <h3 className="soft-skills-title">Soft Skills</h3>
+        <div className="skills-pill-list soft-skills-list">
+          {softSkills.map((skill) => (
             <span className="skill-pill" key={skill}>{skill}</span>
           ))}
         </div>
